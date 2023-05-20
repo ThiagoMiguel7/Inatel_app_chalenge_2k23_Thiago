@@ -1,16 +1,40 @@
 # inatel_app_challenge
 
-A new Flutter project.
+## Documentação
 
-## Getting Started
+* [Install Flutter](https://flutter.dev/get-started/)
+* [Install Python](https://www.python.org)
+* [Flutter documentation](https://docs.flutter.dev/)
+* [Python documentation](https://www.python.org/doc/)
+* [Development wiki](https://github.com/flutter/flutter/wiki)
+* [Contributing to Flutter](https://github.com/flutter/flutter/blob/master/CONTRIBUTING.md)
 
-This project is a starting point for a Flutter application.
+### Pré-requisitos
 
-A few resources to get you started if this is your first Flutter project:
+Antes de começar, você precisará instalar as seguintes ferramentas em sua máquina:
+**[Git](https://git-scm.com)**,
+**[Flutter](https://docs.flutter.dev/get-started/install)** e
+**[Python](https://www.python.org/downloads/)**. 
+Você também vai precisar instalar um editor de código, como o  **[Visual Studio Code](https://code.visualstudio.com/)**, para trabalhar com o projeto.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Passo 1: Clonar o Repositório
+```bash
+$ git clone https://github.com/ThiagoMiguel7/Inatel_app_chalenge_2k23_Thiago.git
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+## Passo 2: Instalar Dependências
+```bash
+$ flutter pub get
+```
+> Veja o arquivo  **[pubspec.ymal](https://github.com/ThiagoMiguel7/Inatel_app_chalenge_2k23_Thiago/blob/main/pubspec.yaml)**
+
+
+## Passo 4:  Executar o Backend
+```bash
+$ cd Backend
+$ python.exe traffic_analyzer_v2.py
+```
+## Passo 5:  Executar o Front-end
+
+> Iniciar a execução do arquivo **[main.dart](https://github.com/ThiagoMiguel7/Inatel_app_chalenge_2k23_Thiago/blob/main/lib/data.dart)**
+
